@@ -68,6 +68,63 @@ div h2{
 	font-weight: bold;
 
 }
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #f2f2f2;
+	height: 330px;
+	z-index: -1;
+
+	
+	
+}
+.containter {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	border-bottom:  1px solid #DDDDDD;
+	padding-bottom: 50px;
+
+}
+.footer-logo-div {
+	display: flex;
+	width: 380px;
+	justify-content: space-between;
+	
+
+}
+.footer-logo-div p {
+	width: 260px;
+	font-size: 11px;
+}
+.footer-list li a  {
+	font-size: 11px;
+}
+.footer-list {
+	line-height: 20px;
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	font-size: 11px
+}
+.address{
+	font-size: 11px;
+}
+
+.socials {
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-start;
+	margin-left: 1100px;
+	margin-top: 30px;
+}
+
 
 
 
