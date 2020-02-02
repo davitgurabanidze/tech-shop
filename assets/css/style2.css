@@ -1,0 +1,78 @@
+	@font-face {
+	font-family: neune_bold;
+	src: url(../fonts/helvetica_neue_bold.ttf);
+}
+
+
+	@font-face {
+	font-family: neue_roman;
+	src: url(../fonts/helvetica_neue_roman.ttf);
+}
+
+
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	font-family: light;
+	color: #4d4d4d;
+}
+
+body {
+
+	max-width: 1080px;
+	margin: 0 auto;
+} 
+
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+}
+.nav ul {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.nav ul li a {
+	font-size: 18px;
+
+}
+.article_h1 {
+	
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 52px;
+	width: 698px;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+div h2{
+	padding: 15px 40px 15px 30px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
