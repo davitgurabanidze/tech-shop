@@ -1,4 +1,4 @@
-	@font-face {
+@font-face {
 	font-family: neune_bold;
 	src: url(../fonts/helvetica_neue_bold.ttf);
 }
@@ -33,34 +33,9 @@ header {
 	height: 70px;
 	align-items: center;
 }
-.nav ul {
-	width: 200px;
-	display: flex;
-	justify-content: space-between;
-
-}
-.nav ul li a {
-	font-size: 18px;
-
-}
 
 
-.article_h1 {
-	font-size: 12px;
-	margin-left: 700px;
 
-
-}
-	
-
-div h2{
-	padding: 15px 40px 15px 30px;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 70px;
-	margin-left: 700px;
-
-}
 footer {
 	position: absolute;
 	left: 0;
@@ -117,12 +92,3 @@ address {
 	margin-left: 1100px;
 	margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
