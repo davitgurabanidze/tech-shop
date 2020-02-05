@@ -45,12 +45,30 @@ header {
 }
 
 
+
 .article_h1 {
-	font-size: 12px;
+	display: flex;
+	font-size: 18px;
 	margin-left: 700px;
-
-
+	height: 83px;
+	width: 698px;
+	margin-bottom: 39px;
 }
+article p{
+	width: 552px;
+  height: 112px;
+  font-family: HelveticaNeue-UltraLigCondObl;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+
 	
 
 div h2{

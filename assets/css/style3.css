@@ -33,6 +33,20 @@ header {
 	height: 70px;
 	align-items: center;
 }
+.nav ul {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.nav ul li a {
+	font-size: 18px;
+
+
+}
+
+
+
 
 
 
