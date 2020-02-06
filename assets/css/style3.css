@@ -46,6 +46,43 @@ header {
 }
 
 
+.products h2 {
+	font-size: 34px;
+	margin-bottom: 70px;
+}
+.products ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.products ul li {
+	width: 1920px;
+  height: 2435px
+	border-radius: 5px;
+    border: solid 1px black;
+    background-color: #ffffff;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.svgs {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.positions {
+	position: relative;
+	top: 100px;
+}
+.positioned {
+	position: relative;
+	top: 50px;
+}
+
+
 
 
 
