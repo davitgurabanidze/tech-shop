@@ -9,6 +9,11 @@
 	src: url(../fonts/helvetica_neue_roman.ttf);
 }
 
+	@font-face {
+	font-family: light;
+	src: url(../fonts/helvetica_neue_light.ttf);
+}
+
 
 
 * {
@@ -28,6 +33,7 @@ body {
 } 
 
 header {
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
 	height: 70px;
@@ -47,16 +53,17 @@ header {
 
 
 .article_h1 {
-	display: flex;
 	font-size: 18px;
-	margin-left: 700px;
-	height: 83px;
-	width: 698px;
-	margin-bottom: 39px;
+	
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: calc(100vh - 70px)
 }
 article p{
-	width: 552px;
-  height: 112px;
   font-family: HelveticaNeue-UltraLigCondObl;
   font-size: 18px;
   font-weight: normal;
@@ -67,16 +74,40 @@ article p{
   text-align: left;
   color: #4d4d4d;
 }
+.price {
+	font-size: 30px;
+	font-family: neune_bold;
+}
+
+.article_div {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.buy {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.buy a {
+	border: 1px solid  #707070;
+	padding: 10px 30px 10px 20px;
+	border-radius: 5px ;
+	background-color: #707070;
+	opacity: .5;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.headphones {
+	width: 500px;
+}
 
 
 	
 
-div h2{
-	padding: 15px 40px 15px 30px;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 70px;
-	margin-left: 700px;
 
 }
 footer {
@@ -135,6 +166,35 @@ address {
 	margin-left: 1100px;
 	margin-top: 30px;
 }
+
+@media screen and (max-width: 480px) {
+
+.nav {
+ 		display: none;
+ 	}
+ 	
+ 	.headphones{
+ 		width: 250px;
+ 	}
+ 	article{
+ 		flex-direction: column;
+ 	}
+
+ 	.socials {
+
+ 		flex-direction: column;
+ 		margin-left: 250px;
+ 		margin-top: -187px;
+ 	} 
+ 	.containter{
+ 		flex-direction: column;
+ 	}
+
+ 	footer {
+ 		margin-top: 130px;
+ 	}
+ }	
+
 
 
 

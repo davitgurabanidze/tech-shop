@@ -34,6 +34,7 @@ body {
 } 
 
 header {
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
 	height: 70px;
@@ -54,6 +55,7 @@ header {
 article {
 	height: calc(100vh - 70px);
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	margin-bottom: 100px;
 
@@ -286,4 +288,41 @@ address {
 	margin-left: 1100px;
 	margin-top: 30px;
 }
+
+ @media screen and (max-width: 480px) {
+
+ 	.nav {
+ 		display: none;
+ 	}
+ 	.article_h1{
+ 		font-size: 43px;
+ 	}
+ 	.list li{
+ 		width: 320px;
+ 	}
+ 	.list li::after {
+ 		left: 120px;
+ 		top: 110px;
+ 	}
+
+ 	article {
+ 		flex-direction: column;
+ 	}
+ 	.list {
+ 		height: 1300px;
+ 		flex-direction: column;
+ 	}
+ 	.img-list {
+ 		flex-direction: column;
+ 	}
+ 	.socials {
+
+ 		flex-direction: column;
+ 		margin-left: 250px;
+ 		margin-top: -187px;
+ 	} 
+ 	.containter{
+ 		flex-direction: column;
+ 	}
+ }
 
