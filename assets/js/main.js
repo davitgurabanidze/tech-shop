@@ -1,5 +1,5 @@
   
-let add = document.getElementsByTagName('svg').firstChild;
+let add = document.getElementsByTagName('svgs').firstChild;
 console.log(add);
 let bl = add.length;
 console.log(bl)
