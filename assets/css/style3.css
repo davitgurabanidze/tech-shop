@@ -156,7 +156,7 @@ footer {
 .footer-logo-div {
 	display: flex;
 	width: 380px;
-	justify-content: space-between;
+	justify-content: space-around;
 	
 
 }
