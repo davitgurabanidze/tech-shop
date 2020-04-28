@@ -169,7 +169,7 @@ article a {
 	position: relative;
 }
 .first::before {
-	content: "ხარიხსი";
+	content: "ხარისხი";
 	display: block;
 	position: absolute;
 	color: #FFF;
